@@ -1,0 +1,38 @@
+/* Style for the container */
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the color box */
+#color-box {
+  width: 30vw; /* 70% of the viewport width */
+  height: 30vw;
+  margin: 20px auto;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+}
+
+/* Style for the button */
+#change-color-btn,
+#reset-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#change-color-btn:hover {
+  background-color: #0056b3;
+}
+
+#reset-btn {
+  background-color: #dc3545;
+}
+
+#reset-btn:hover {
+  background-color: #c82333;
+}
